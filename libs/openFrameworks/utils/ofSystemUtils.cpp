@@ -25,7 +25,8 @@
 	//		-x objective-c++
 	// http://www.yakyak.org/viewtopic.php?p=1475838&sid=1e9dcb5c9fd652a6695ac00c5e957822#p1475838
 
-	#include <Cocoa/Cocoa.h>
+#include <Foundation/Foundation.h>
+#include <Cocoa/Cocoa.h>
 #endif
 
 #ifdef TARGET_WIN32

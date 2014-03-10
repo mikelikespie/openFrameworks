@@ -1,8 +1,7 @@
 
 #pragma once
 
-#include "ofMain.h"
-
+#include "ofBaseTypes.h"
 #include <numeric>
 
 #include <Poco/DOM/Document.h>

@@ -1,4 +1,6 @@
 
+#include "ofParameterGroup.h"
+#include "ofParameter.h"
 #include "ofXml.h"
 
 ofXml::~ofXml() {

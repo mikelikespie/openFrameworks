@@ -142,6 +142,8 @@ enum ofTargetPlatform{
 
 #endif
 
+#define HAS_CPP11 ((_MSC_VER) || defined(_LIBCPP_VERSION))
+
 #ifdef TARGET_OSX
 	#ifndef __MACOSX_CORE__
 		#define __MACOSX_CORE__
